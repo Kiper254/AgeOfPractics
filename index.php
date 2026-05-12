@@ -1,3 +1,12 @@
+<?php
+header("Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none';");
+header("Strict-Transport-Security: max-age=63072000; includeSubDomains; preload");
+header("X-Frame-Options: DENY");
+header("X-Content-Type-Options: nosniff");
+header("Referrer-Policy: no-referrer");
+header("Permissions-Policy: geolocation=(), microphone=(), camera=()");
+?>
+
 <!DOCTYPE html>
 <html lang="pl">
 <head>

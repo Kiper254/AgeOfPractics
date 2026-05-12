@@ -27,9 +27,9 @@
 
     <div class="update">
         <h2>Najczęściej zgłaszane pomysły</h2>
-        <p>Hitler</p>
-        <p>Musolini</p>
-        <p>Hirohito</p>
+        <p>Berlin</p>
+        <p>Rzym</p>
+        <p>Tokyo</p>
     </div>
 
     <a href="index.php">Powrót</a>

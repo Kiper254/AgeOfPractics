@@ -3,6 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Kontakt</title>
+
+
+    <meta http-equiv="Content-Security-Policy"
+          content="
+            default-src 'self';
+            style-src 'self';
+            img-src 'self' data:;
+            font-src 'self';
+            object-src 'none';
+            frame-ancestors 'none';
+            base-uri 'self';
+          ">
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>

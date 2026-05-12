@@ -2,16 +2,7 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="Content-Security-Policy"
-          content="
-            default-src 'self';
-            style-src 'self';
-            img-src 'self' data:;
-            script-src 'self';
-            object-src 'none';
-            frame-ancestors 'none';
-            base-uri 'self';
-          ">
+
     <title>Update'y</title>
     <link rel="stylesheet" href="style.css">
 </head>
